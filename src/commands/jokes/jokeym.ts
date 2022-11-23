@@ -9,7 +9,7 @@ export default new Command({
         const resultado = await fetch("https://api.yomomma.info/").then((response) => response.json());
 
         interaction.followUp({
-            content: `Joke: ${resultado}`
+            content: `Joke: ${resultado.joke}`
           });
     }
 });

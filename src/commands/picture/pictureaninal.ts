@@ -26,7 +26,7 @@ export default new Command({
             //const resultado = await randomAnimals.panda();
             //console.log(resultado);  
             await interaction.editReply({
-                content: `...otro ${randomURlAnimal.name}` , files: [randomURlAnimal]
+                content: `...otro` , files: [randomURlAnimal]
             }); 
         } catch (error) {
             console.log("error: " + error);  

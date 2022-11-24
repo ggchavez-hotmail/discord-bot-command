@@ -1,6 +1,6 @@
 FROM node:18.12.1-bullseye-slim AS development
-ENV botToken MTA0MzUwODI5MTU2Njg0NTk2Mg.GiG0iK.EWtJEbnyx5s27uXwTdg0jbCFm0r8L5TClgimhc
-ENV guildId 973030479009812490/973268795357552640
+ENV botToken token
+ENV guildId clientId
 ENV enviroment debug
 WORKDIR /usr
 COPY package.json ./
